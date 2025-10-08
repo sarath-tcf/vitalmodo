@@ -37,7 +37,7 @@ const ChatWindow: React.FC<ChatWindowProps> = ({ isOpen, onClose }) => {
 
     const initialBotMessage: ChatMessage = {
       author: MessageAuthor.BOT,
-      text: "I am Dr.Vital, AI Powered Symptom Checker. I'm here to help you with health symptoms, mental challenges, healthy recipes & exercises.",
+      text: "I am Dr.Vital, AI Powered Symptom Checker. I'm here to help you with health symptoms, mental challenges.",
     };
 
     // a small delay to simulate "thinking" before showing the first message
